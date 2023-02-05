@@ -7,7 +7,7 @@ first_student = {2, 3, 6, 7}
 second_student = {1, 6, 7, 8}
 answer = first_student | second_student
 left_to_decide = []
-for i in range(1, questions):
+for i in range(1, questions + 1):
     if i not in answer:
         left_to_decide.append(i)
 print(list(left_to_decide))
